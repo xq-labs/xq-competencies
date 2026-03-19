@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.1 — 2026-03-19
+
+### Updated
+- **Logical Thinking** (OT.Crit.2)
+  - Refined the title punctuation to clarify expectations of analyzing assumptions and reasoning.
+### Formatting
+Whitespace and formatting cleanup occurred.
+
 All notable changes to the XQ Competency Framework are documented here.
 
 ## v1.0.0 — 2026-03-19
