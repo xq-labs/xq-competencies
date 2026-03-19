@@ -47,6 +47,7 @@ Every competency is backed by **research sources** (139 total) linking to peer-r
 | `component_skills.csv` | 115 granular skills with 4 progression levels each |
 | `research_sources.csv` | 139 research citations backing each competency |
 | `icons/` | SVG icons for each competency |
+| `resources/` | Research papers and white papers (PDF) |
 | `VERSION` | Current version, release date, and stats |
 | `LICENSE` | CC BY 4.0 license text |
 
@@ -116,6 +117,14 @@ Human-readable `competency_name` columns are included in `component_skills.csv` 
 | `url` | DOI or source URL |
 | `citation` | Full citation |
 | `summary` | Why this source supports the competency |
+
+## Resources
+
+The `resources/` folder contains foundational research papers for the XQ Competency Framework:
+
+- **[Framing the XQ Competencies in Research & Practice](resources/XQ_Competencies_White_Paper.pdf)** — A research-based reference for all 37 XQ Competencies, grounded in learning science to support meaningful teaching and learning.
+
+- **[The XQ Competencies: A Comparative Review of Leading Student Learning Frameworks](resources/XQ_Competencies_Literature_Review.pdf)** — A research study by KP Catalysts that finds the XQ Competencies provide a logical, coherent, and actionable framework for student learning.
 
 ## Versioning
 
