@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1 — 2026-03-19
+
+- Updated descriptions of component skill FK.AC.1.c to include additional examples and engagement methods.
+
 All notable changes to the XQ Competency Framework are documented here.
 
 ## v1.0.0 — 2026-03-19
