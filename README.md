@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://xqsuperschool.org/">
-    <img src="https://xqcompetencies.xqsuperschool.org/assets/XQ_Logo_RGB_Navy-DpWCiGS_.svg" alt="XQ Institute" width="120">
-  </a>
-</p>
-
 <h1 align="center">XQ Competency Framework</h1>
 
 <p align="center">
@@ -38,11 +32,11 @@ Learner Outcome  →  Competency  →  Component Skill (with 4 progression level
 
 <table>
   <tr>
-    <td align="center" width="20%"><img src="icons/FK.SS.1_governments.svg" width="64"><br><strong>FK</strong><br>Holders of Foundational Knowledge</td>
-    <td align="center" width="20%"><img src="icons/FL.ID.1_making-meaning.svg" width="64"><br><strong>FL</strong><br>Masters of All Fundamental Literacies</td>
-    <td align="center" width="20%"><img src="icons/GC.IS.4_productive-collaboration.svg" width="64"><br><strong>GC</strong><br>Generous Collaborators for Tough Problems</td>
-    <td align="center" width="20%"><img src="icons/LL.SD.2_wayfinding.svg" width="64"><br><strong>LL</strong><br>Learners for Life</td>
-    <td align="center" width="20%"><img src="icons/OT.Creat.1_creative-process.svg" width="64"><br><strong>OT</strong><br>Original Thinkers for an Uncertain World</td>
+    <td align="center" valign="top" width="20%"><img src="icons/FK.SS.1_governments.svg" width="64"><br><strong>FK</strong><br>Holders of Foundational Knowledge</td>
+    <td align="center" valign="top" width="20%"><img src="icons/FL.ID.1_making-meaning.svg" width="64"><br><strong>FL</strong><br>Masters of All Fundamental Literacies</td>
+    <td align="center" valign="top" width="20%"><img src="icons/GC.IS.4_productive-collaboration.svg" width="64"><br><strong>GC</strong><br>Generous Collaborators for Tough Problems</td>
+    <td align="center" valign="top" width="20%"><img src="icons/LL.SD.2_wayfinding.svg" width="64"><br><strong>LL</strong><br>Learners for Life</td>
+    <td align="center" valign="top" width="20%"><img src="icons/OT.Creat.1_creative-process.svg" width="64"><br><strong>OT</strong><br>Original Thinkers for an Uncertain World</td>
   </tr>
 </table>
 
