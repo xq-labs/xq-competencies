@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.1 — 2026-03-20
+
+### Learner Outcomes
+
+- **Original Thinkers for an Uncertain World** (OT)
+  - Fixed punctuation in the description
+
+### Competencies
+
+- **Self-Directed Learning** (LL.SD.3)
+  - Added missing period to description
+
 All notable changes to the XQ Competency Framework are documented here.
 
 ## v1.0.0 — 2026-03-19
