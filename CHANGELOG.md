@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.1 — 2026-03-20
+
+### Competencies
+
+- **Self-Directed Learning** (LL.SD.3)
+  - Fixed punctuation in the component skill description for 'Advocate for my success.'
+
+### Learner Outcomes
+
+- **Original Thinkers for an Uncertain World** (OT)
+  - Added missing period to the description.
+
 All notable changes to the XQ Competency Framework are documented here.
 
 ## v1.0.0 — 2026-03-19
