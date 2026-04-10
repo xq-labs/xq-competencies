@@ -67,7 +67,7 @@ The competency icons in [`icons/`](icons/) are SVGs named `{id}_{name}.svg` (e.g
 
 ## Versioning
 
-This repository uses [semantic versioning](https://semver.org/). Each release includes a git tag and a [GitHub Release](https://github.com/xq-labs/xq-competency-framework/releases). See [`CHANGELOG.md`](CHANGELOG.md) for the full version history.
+This repository uses [semantic versioning](https://semver.org/). Each release includes a git tag and a [GitHub Release](https://github.com/xq-labs/xq-competencies/releases). See [`CHANGELOG.md`](CHANGELOG.md) for the full version history.
 
 ## Working with XQ
 
@@ -85,6 +85,6 @@ XQ has released the XQ Competencies under a Creative Commons Attribution (CC BY 
 **Recommended attribution:**
 When using this material, please credit: [XQ Competencies](https://xqsuperschool.org/) © XQ Institute. Licensed under CC BY 4.0.
 
-If possible, also include a link to the [canonical repository](https://github.com/xq-labs/xq-competency-framework).
+If possible, also include a link to the [canonical repository](https://github.com/xq-labs/xq-competencies).
 
 "XQ Institute", "XQ", and associated logos are trademarks of XQ Institute and are not licensed under CC BY 4.0. See [NOTICE.md](NOTICE.md) for full attribution requirements and trademark guidance.

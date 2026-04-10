@@ -20,7 +20,7 @@ with a link to:
 https://xqsuperschool.org/
 
 If possible, also include a link to the canonical repository:
-https://github.com/xq-labs/xq-competency-framework
+https://github.com/xq-labs/xq-competencies
 
 ---
 
