@@ -1,6 +1,6 @@
 # NOTICE
 
-## XQ Competency Framework
+## XQ Competencies
 
 © 2026 XQ Institute
 https://xqsuperschool.org/
@@ -12,9 +12,9 @@ https://creativecommons.org/licenses/by/4.0/
 
 ## Attribution Requirements
 
-When using or adapting this framework, please include:
+When using this material, please credit:
 
-"XQ Competency Framework © XQ Institute, licensed under CC BY 4.0"
+XQ Competencies © XQ Institute. Licensed under CC BY 4.0
 
 with a link to:
 https://xqsuperschool.org/
@@ -26,10 +26,10 @@ https://github.com/xq-labs/xq-competency-framework
 
 ## Indication of Changes
 
-If you modify this framework, please clearly indicate what was changed.
+If you modify or build from the competencies, please indicate that changes were made and do not imply endorsement by XQ.
 
 Examples:
-- "Adapted from the XQ Competency Framework"
+- "Adapted from the XQ Competencies"
 - "Modified competency definitions and structure"
 - "Subset of competencies used"
 
@@ -39,7 +39,7 @@ Where possible, include a brief summary of the changes.
 
 ## No Endorsement
 
-Use of this framework does not imply endorsement by XQ Institute.
+Use of this material does not imply endorsement by XQ Institute.
 
 ---
 
@@ -52,5 +52,5 @@ and are not licensed under CC BY 4.0. Use of these marks requires separate permi
 
 ## Contact
 
-Interested in working with XQ Institute or sharing how you're using this framework?
+Interested in working with XQ Institute or sharing how you're using the XQ Competencies?
 https://xqsuperschool.org/

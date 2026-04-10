@@ -17,12 +17,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Extract version from VERSION file
+      - name: Extract version from CHANGELOG
         id: version
         run: |
-          VERSION=$(grep '^Version: ' VERSION | sed 's/^Version: //')
+          VERSION=$(grep -oP '## v\K[0-9]+\.[0-9]+\.[0-9]+' CHANGELOG.md | head -1)
           if [ -z "$VERSION" ]; then
-            echo "::error::Could not extract version from VERSION file"
+            echo "::error::Could not extract version from CHANGELOG.md"
             exit 1
           fi
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
