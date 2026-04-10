@@ -1,6 +1,6 @@
 # Data Documentation
 
-This folder contains the XQ Competency Framework as structured CSV files. The data is exported from the XQ Institute's content management system and represents the complete framework hierarchy.
+This folder contains the XQ Competencies as structured CSV files. The data is exported from the XQ Institute's content management system and represents the complete framework hierarchy.
 
 ## Framework Hierarchy
 

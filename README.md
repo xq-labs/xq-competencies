@@ -1,4 +1,4 @@
-<h1 align="center">XQ Competency Framework</h1>
+<h1 align="center">XQ Competencies</h1>
 
 <p align="center">
   A research-backed, durable skill framework for high school education.<br>
@@ -7,14 +7,14 @@
 
 <p align="center">
   <a href="https://xqcompetencies.xqsuperschool.org/">Explore the Framework</a> &bull;
-  <a href="http://learning.xq.institute/">Learn More</a> &bull;
+  <a href="https://learning.xq.institute/">Learn More</a> &bull;
   <a href="data/">Download the Data</a> &bull;
   <a href="mailto:support@xqinstitute.org">Contact Us</a>
 </p>
 
 ---
 
-## What is the XQ Competency Framework?
+## What Are the XQ Competencies?
 
 Today's young people are growing up in an increasingly complex world, and the ways they learn are evolving accordingly.
 
@@ -44,11 +44,7 @@ Each learner outcome contains multiple **competencies** (37 total), which in tur
 
 Every competency is backed by **research sources** (139 citations) linking to peer-reviewed literature and foundational texts.
 
-## Research & Resources
-
-- **[Framing the XQ Competencies in Research & Practice](resources/XQ_Competencies_White_Paper.pdf)** — A research-based reference for all 37 XQ Competencies, grounded in learning science to support meaningful teaching and learning.
-
-- **[The XQ Competencies: A Comparative Review of Leading Student Learning Frameworks](resources/XQ_Competencies_Literature_Review.pdf)** — A study by KP Catalysts finding that the XQ Competencies provide a logical, coherent, and actionable framework for student learning.
+## Resources
 
 - **[XQ Competency Navigator](https://xqcompetencies.xqsuperschool.org/)** — Explore the full framework interactively online.
 
@@ -63,10 +59,6 @@ data/                     Framework data as CSV files
 └── README.md               Column docs, relationships, usage examples
 
 icons/                    37 competency hexagon icons (SVG)
-
-resources/                Research papers (PDF)
-├── XQ_Competencies_White_Paper.pdf
-└── XQ_Competencies_Literature_Review.pdf
 ```
 
 The CSV files in [`data/`](data/) are relational — join them on `id`, `competency_id`, and `learner_outcome_id`. See [`data/README.md`](data/README.md) for complete column documentation and usage examples in Python, R, and SQL.
@@ -75,27 +67,24 @@ The competency icons in [`icons/`](icons/) are SVGs named `{id}_{name}.svg` (e.g
 
 ## Versioning
 
-This repository uses [semantic versioning](https://semver.org/). Each release includes a git tag and a [GitHub Release](https://github.com/xq-labs/xq-competency-framework/releases). See [`CHANGELOG.md`](CHANGELOG.md) for the full version history.
-
-| Change Type | Version Bump |
-|-------------|-------------|
-| Competencies or learner outcomes removed/restructured | Major |
-| New competencies, skills, or outcomes added | Minor |
-| Descriptions, definitions, or sources updated | Patch |
+This repository uses [semantic versioning](https://semver.org/). Each release includes a git tag and a [GitHub Release](https://github.com/xq-labs/xq-competencies/releases). See [`CHANGELOG.md`](CHANGELOG.md) for the full version history.
 
 ## Working with XQ
 
-Interested in implementing or adapting the XQ Competency Framework? We'd be glad to collaborate.
+Interested in implementing or adapting the XQ Competencies? We'd be glad to collaborate.
 
 **Contact:** [support@xqinstitute.org](mailto:support@xqinstitute.org)
 **Learn more:** [xqsuperschool.org](https://xqsuperschool.org/)
 
 ## License
 
-This work is licensed under [**Creative Commons Attribution 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/).
+© 2026 XQ Institute. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-You are free to share, adapt, and build upon this material — even commercially — as long as you give appropriate credit.
+XQ has released the XQ Competencies under a Creative Commons Attribution (CC BY 4.0) license, enabling anyone to use, share, and adapt the framework—with attribution—for any purpose. Our goal is to support broad use and adaptation in service of meaningful, engaging, real-world learning experiences that build durable skills. If you modify or build from the competencies, please indicate that changes were made and do not imply endorsement by XQ Institute.
 
-**Attribution:** "XQ Competency Framework © [XQ Institute](https://xqsuperschool.org/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)."
+**Recommended attribution:**
+When using this material, please credit: [XQ Competencies](https://xqsuperschool.org/) © XQ Institute. Licensed under CC BY 4.0.
 
-"XQ Institute", "XQ", and associated logos are trademarks of XQ Institute and are not covered by this license. See [NOTICE.md](NOTICE.md) for full attribution requirements and trademark guidance.
+If possible, also include a link to the [canonical repository](https://github.com/xq-labs/xq-competencies).
+
+"XQ Institute", "XQ", and associated logos are trademarks of XQ Institute and are not licensed under CC BY 4.0. See [NOTICE.md](NOTICE.md) for full attribution requirements and trademark guidance.
