@@ -26,7 +26,7 @@ https://github.com/xq-labs/xq-competency-framework
 
 ## Indication of Changes
 
-If you modify or build from the competencies, please indicate that changes were made and do not imply endorsement by XQ.
+If you modify or build from the competencies, please indicate that changes were made and do not imply endorsement by XQ Institute.
 
 Examples:
 - "Adapted from the XQ Competencies"

@@ -20,7 +20,7 @@ jobs:
       - name: Extract version from CHANGELOG
         id: version
         run: |
-          VERSION=$(grep -oP '## v\K[0-9]+\.[0-9]+\.[0-9]+' CHANGELOG.md | head -1)
+          VERSION=$(grep -oE '## v[0-9]+\.[0-9]+\.[0-9]+' CHANGELOG.md | head -1 | sed 's/## v//')
           if [ -z "$VERSION" ]; then
             echo "::error::Could not extract version from CHANGELOG.md"
             exit 1
@@ -40,6 +40,15 @@ jobs:
             echo "Tag ${{ steps.version.outputs.tag }} does not exist, will create."
           fi
 
+      - name: Extract release notes from CHANGELOG
+        if: steps.check_tag.outputs.exists == 'false'
+        id: notes
+        run: |
+          # Extract content between the first ## heading and the next ## heading (or EOF)
+          NOTES=$(awk '/^## v/{if(found) exit; found=1; next} found{print}' CHANGELOG.md)
+          # Write to file for gh release
+          echo "$NOTES" > /tmp/release-notes.md
+
       - name: Create and push tag
         if: steps.check_tag.outputs.exists == 'false'
         run: |
@@ -53,4 +62,4 @@ jobs:
         run: |
           gh release create "${{ steps.version.outputs.tag }}" \
             --title "${{ steps.version.outputs.tag }}" \
-            --generate-notes
+            --notes-file /tmp/release-notes.md

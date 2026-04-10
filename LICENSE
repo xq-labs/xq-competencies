@@ -1,3 +1,5 @@
+SPDX-License-Identifier: CC-BY-4.0
+
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Copyright (c) 2026 XQ Institute
@@ -26,6 +28,8 @@ Attribution guidance:
   When using this material, please credit:
   XQ Competencies © XQ Institute. Licensed under CC BY 4.0
   with a link to https://xqsuperschool.org/.
+  If possible, also include a link to the canonical repository:
+  https://github.com/xq-labs/xq-competency-framework
 
 Trademark notice:
   "XQ Institute", "XQ", and associated logos are trademarks of XQ Institute

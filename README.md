@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://xqcompetencies.xqsuperschool.org/">Explore the Framework</a> &bull;
-  <a href="http://learning.xq.institute/">Learn More</a> &bull;
+  <a href="https://learning.xq.institute/">Learn More</a> &bull;
   <a href="data/">Download the Data</a> &bull;
   <a href="mailto:support@xqinstitute.org">Contact Us</a>
 </p>
@@ -80,9 +80,11 @@ Interested in implementing or adapting the XQ Competencies? We'd be glad to coll
 
 © 2026 XQ Institute. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-XQ has released the XQ Competencies under a Creative Commons Attribution (CC BY 4.0) license, enabling anyone to use, share, and adapt the framework—with attribution—for any purpose. Our goal is to support broad use and adaptation in service of meaningful, engaging, real-world learning experiences that build durable skills. If you modify or build from the competencies, please indicate that changes were made and do not imply endorsement by XQ.
+XQ has released the XQ Competencies under a Creative Commons Attribution (CC BY 4.0) license, enabling anyone to use, share, and adapt the framework—with attribution—for any purpose. Our goal is to support broad use and adaptation in service of meaningful, engaging, real-world learning experiences that build durable skills. If you modify or build from the competencies, please indicate that changes were made and do not imply endorsement by XQ Institute.
 
 **Recommended attribution:**
 When using this material, please credit: [XQ Competencies](https://xqsuperschool.org/) © XQ Institute. Licensed under CC BY 4.0.
 
-"XQ Institute", "XQ", and associated logos are trademarks of XQ Institute and are not covered by this license. See [NOTICE.md](NOTICE.md) for full attribution requirements and trademark guidance.
+If possible, also include a link to the [canonical repository](https://github.com/xq-labs/xq-competency-framework).
+
+"XQ Institute", "XQ", and associated logos are trademarks of XQ Institute and are not licensed under CC BY 4.0. See [NOTICE.md](NOTICE.md) for full attribution requirements and trademark guidance.
