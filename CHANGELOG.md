@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1 — 2026-06-09
+
+- Updated export metadata
+
 All notable changes to the XQ Competencies are documented here.
 
 ## v1.0.0 — 2026-03-19
