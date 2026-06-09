@@ -22,10 +22,10 @@ Recent advances in neuroscience, cognitive psychology, and the learning sciences
 
 At XQ, we believe that when high schools design experiences that honor this rich complexity, students become more engaged, explore more deeply, and ultimately develop the knowledge, skills, and mindsets they need to succeed in college, career, and beyond.
 
-The framework is organized as a three-level hierarchy:
+The framework is organized as a four-level hierarchy:
 
 ```
-Learner Outcome  →  Competency  →  Component Skill (with 4 progression levels)
+Learner Outcome  →  Domain  →  Competency  →  Component Skill (with 4 progression levels)
 ```
 
 ### The Five Learner Outcomes
@@ -40,7 +40,7 @@ Learner Outcome  →  Competency  →  Component Skill (with 4 progression level
   </tr>
 </table>
 
-Each learner outcome contains multiple **competencies** (37 total), which in turn contain **component skills** (115 total). Every component skill includes four progression levels — Emerging, Developing, Proficient, and Applying — so educators can track student growth over time.
+Each learner outcome is organized into **domains** (13 total) that group related **competencies** (37 total), which in turn contain **component skills** (115 total). Every component skill includes four progression levels — Emerging, Developing, Proficient, and Applying — so educators can track student growth over time.
 
 Every competency is backed by **research sources** (139 citations) linking to peer-reviewed literature and foundational texts.
 
@@ -53,6 +53,7 @@ Every competency is backed by **research sources** (139 citations) linking to pe
 ```
 data/                     Framework data as CSV files
 ├── learner_outcomes.csv    5 top-level learning goals
+├── domains.csv             13 domains grouping related competencies
 ├── competencies.csv        37 competencies with definitions
 ├── component_skills.csv    115 skills with 4 progression levels
 ├── research_sources.csv    139 research citations
@@ -61,7 +62,7 @@ data/                     Framework data as CSV files
 icons/                    37 competency hexagon icons (SVG)
 ```
 
-The CSV files in [`data/`](data/) are relational — join them on `id`, `competency_id`, and `learner_outcome_id`. See [`data/README.md`](data/README.md) for complete column documentation and usage examples in Python, R, and SQL.
+The CSV files in [`data/`](data/) are relational — join them on `id`, `domain_id`, `competency_id`, and `learner_outcome_id`. See [`data/README.md`](data/README.md) for complete column documentation and usage examples in Python, R, and SQL.
 
 The competency icons in [`icons/`](icons/) are SVGs named `{id}_{name}.svg` (e.g., `FK.AC.1_artistic-expression.svg`).
 
