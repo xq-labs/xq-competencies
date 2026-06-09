@@ -1,0 +1,14 @@
+id,learner_outcome_id,name
+FK.AC,FK,Appreciating and Creating Art
+FK.SS,FK,Social Systems
+FL.ID,FL,Communicating and Receiving Ideas
+FL.MST,FL,Mathematical and Scientific Thinking
+GC.IS,GC,Interpersonal Skills
+GC.SA,GC,Social Awareness
+GC.SAg,GC,Social Agency
+LL.SAw,LL,Self-Awareness
+LL.SD,LL,Self-Directed Learning
+LL.SM,LL,Self-Management
+OT.Creat,OT,Creative Thinking
+OT.Crit,OT,Critical Thinking
+OT.PS,OT,Problem Seeking and Solving
