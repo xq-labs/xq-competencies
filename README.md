@@ -57,12 +57,20 @@ data/                     Framework data as CSV files
 ├── competencies.csv        37 competencies with definitions
 ├── component_skills.csv    115 skills with 4 progression levels
 ├── research_sources.csv    139 research citations
+├── activities.csv          44 classroom activities with full teaching content
 └── README.md               Column docs, relationships, usage examples
+
+knowledge-graph/          The activities as nodes and relationships (JSONL)
+├── nodes.jsonl             44 Activity + 44 Material nodes
+├── relationships.jsonl     44 hasPart edges
+└── README.md               Schema, identifiers, joining to the framework
 
 icons/                    37 competency hexagon icons (SVG)
 ```
 
 The CSV files in [`data/`](data/) are relational — join them on `id`, `domain_id`, `competency_id`, and `learner_outcome_id`. See [`data/README.md`](data/README.md) for complete column documentation and usage examples in Python, R, and SQL.
+
+[`activities.csv`](data/activities.csv) adds ready-to-run classroom activities, each teaching one component skill and carrying its full teaching content as Markdown. The same activities are published as a knowledge graph in [`knowledge-graph/`](knowledge-graph/) for systems that consume nodes and relationships instead of tables.
 
 The competency icons in [`icons/`](icons/) are SVGs named `{id}_{name}.svg` (e.g., `FK.AC.1_artistic-expression.svg`).
 
