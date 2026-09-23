@@ -11,9 +11,9 @@ Learner Outcome
               └── Component Skill (with 4 progression levels)
 ```
 
-The framework contains **5 learner outcomes**, **13 domains**, **37 competencies**, **115 component skills**, and **139 research sources**.
+The framework contains **5 learner outcomes**, **13 domains**, **37 competencies**, **115 component skills**, and **139 research sources**, plus **44 Competency Builder activities** that teach individual component skills.
 
-All text values are single-line plain text — descriptions never contain embedded line breaks.
+All text values are single-line plain text — descriptions never contain embedded line breaks. The two exceptions are `markdown_description` and `markdown_content` in `activities.csv`, which are multi-line Markdown documents inside quoted CSV fields; read that file with a proper CSV parser rather than splitting on newlines.
 
 ## Files
 
@@ -24,6 +24,31 @@ All text values are single-line plain text — descriptions never contain embedd
 | `competencies.csv` | 37 | Competencies with definitions, taglines, and descriptions |
 | `component_skills.csv` | 115 | Granular skills with 4 progression levels each |
 | `research_sources.csv` | 139 | Research citations backing each competency |
+| `activities.csv` | 44 | Classroom activities teaching a component skill, with full teaching content |
+
+## Activities
+
+`activities.csv` holds the Competency Builder activities: ready-to-run classroom activities, each teaching one component skill. Join it to `component_skills.csv` on `component_skill_id`.
+
+Alongside the structured columns (`overview`, `context`, `actions`, `materials`, `preparation`, `run_time`, `student_grouping_type`, `activity_url`, `slides_url`), two columns carry the teaching content itself:
+
+| Column | Contents |
+|--------|----------|
+| `markdown_content` | The complete activity as Markdown — instructional sequence, prompts, tables, figure descriptions, and teacher notes |
+| `markdown_description` | Extra framing, where the activity has any beyond the structured fields |
+
+These are **multi-line Markdown inside quoted CSV fields**, so use a real CSV reader:
+
+```python
+import csv
+with open("data/activities.csv", newline="", encoding="utf-8") as f:
+    activities = list(csv.DictReader(f))
+print(activities[0]["markdown_content"])
+```
+
+`component_skill_case_uuid` carries the parent skill's CASE 1.1 identifier for systems keyed on that rather than on `component_skill_id`. `run_time` is the source value and is sometimes a range, e.g. `15-25 min`. `attribution` names any third-party source the activity adapts, in addition to the standard XQ attribution.
+
+The same activities are published as a knowledge graph in [`../knowledge-graph/`](../knowledge-graph/) for systems that consume nodes and relationships.
 
 ## Relationships
 
