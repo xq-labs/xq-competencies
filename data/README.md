@@ -48,7 +48,7 @@ print(activities[0]["markdown_content"])
 
 `component_skill_case_uuid` carries the parent skill's CASE 1.1 identifier for systems keyed on that rather than on `component_skill_id`. `run_time` is the source value and is sometimes a range, e.g. `15-25 min`. `attribution` names any third-party source the activity adapts, in addition to the standard XQ attribution.
 
-The same activities are published as a knowledge graph in [`../knowledge-graph/`](../knowledge-graph/) for systems that consume nodes and relationships.
+The same activities are published as a knowledge graph in [`../formatted_data/knowledge_graph/`](../formatted_data/knowledge_graph/) for systems that consume nodes and relationships.
 
 ## Relationships
 

@@ -1,6 +1,6 @@
 # Knowledge Graph
 
-The Competency Builder activities as a knowledge graph, for systems that consume nodes and relationships rather than tables. The same activities are available as a single flat table in [`../data/activities.csv`](../data/activities.csv) — this folder is a different shape of the same content, not different content.
+The Competency Builder activities as a knowledge graph, for systems that consume nodes and relationships rather than tables. The same activities are available as a single flat table in [`../../data/activities.csv`](../../data/activities.csv) — this folder is a different shape of the same content, not different content.
 
 Introduced in v1.2.0.
 
@@ -15,8 +15,8 @@ Both are [JSON Lines](https://jsonlines.org/): one JSON object per line, UTF-8, 
 
 ```python
 import json
-nodes = [json.loads(line) for line in open("knowledge-graph/nodes.jsonl")]
-edges = [json.loads(line) for line in open("knowledge-graph/relationships.jsonl")]
+nodes = [json.loads(line) for line in open("formatted_data/knowledge_graph/nodes.jsonl")]
+edges = [json.loads(line) for line in open("formatted_data/knowledge_graph/relationships.jsonl")]
 ```
 
 ## Shape
@@ -50,7 +50,7 @@ Every `Activity` carries two identifiers for its parent component skill, so you 
 
 | Property | Joins to |
 |----------|----------|
-| `componentSkillId` | `id` in [`../data/component_skills.csv`](../data/component_skills.csv), e.g. `LL.SAw.3.b` |
+| `componentSkillId` | `id` in [`../../data/component_skills.csv`](../../data/component_skills.csv), e.g. `LL.SAw.3.b` |
 | `componentSkillCaseUuid` | `case_uuid` in the same file — the identifier the [CASE 1.1 API](https://case.xq.institute/ims/case/v1p1) serves |
 
 `competencyId` and `learnerOutcomeId` are included for the rest of the hierarchy.
@@ -91,7 +91,7 @@ Every `Activity` carries two identifiers for its parent component skill, so you 
 
 ## Known gaps
 
-**20 of 44 activities have `timeRequired: null.`** Their runtime is a range — `15-25 min`, `10-12 min` — because it genuinely varies with class size and discussion. ISO 8601 has no range form, and picking a midpoint would assert a precision the source does not have, so the property is null rather than guessed. The human-readable value is in the `run_time` column of [`../data/activities.csv`](../data/activities.csv).
+**20 of 44 activities have `timeRequired: null.`** Their runtime is a range — `15-25 min`, `10-12 min` — because it genuinely varies with class size and discussion. ISO 8601 has no range form, and picking a midpoint would assert a precision the source does not have, so the property is null rather than guessed. The human-readable value is in the `run_time` column of [`../../data/activities.csv`](../../data/activities.csv).
 
 **`academicSubject` is null for every activity.** These build durable skills across subjects; a competency is not a school subject, so none was inferred.
 
