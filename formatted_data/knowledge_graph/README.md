@@ -1,6 +1,8 @@
 # Knowledge Graph
 
-The Competency Builder activities as a knowledge graph, for systems that consume nodes and relationships rather than tables. The same activities are available as a single flat table in [`../../data/activities.csv`](../../data/activities.csv) — this folder is a different shape of the same content, not different content.
+This release adds 44 Competency Builder classroom activities to the repository in [`data/activities.csv`](../../data/activities.csv). That CSV contains activity metadata, resource links, and teaching content, including multi-line Markdown in quoted fields. The same activities are reformatted here in `formatted_data/knowledge_graph/` for systems that consume nodes and relationships: [`nodes.jsonl`](nodes.jsonl) contains 44 `Activity` nodes and 44 `Material` nodes with the activity content as Markdown, and [`relationships.jsonl`](relationships.jsonl) contains 44 `hasPart` edges connecting each activity to its material.
+
+For Learning Commons, the dataset to ingest is limited to these two JSONL files; this README describes their schema, provenance, and limitations. The graph includes only activities, their materials, and the connections between them. It does not include competency, component-skill, domain, learner-outcome, or research-source nodes, or the framework's definitions and progression levels. The competency-related identifiers on activities are optional cross-references for consumers who want to join to the separate framework exports; Learning Commons can use the activity graph without loading those exports or the activity CSV. Resource URLs are references to external resources; slide decks, images, and other linked assets are not bundled in this dataset.
 
 Introduced in v1.2.0.
 
@@ -44,7 +46,7 @@ xq:haspart:compass_points
 
 An activity renamed in a later release keeps the same identifiers. Re-exporting unchanged data produces byte-identical files.
 
-## Joining to the framework
+## Optional: joining to the framework
 
 Every `Activity` carries two identifiers for its parent component skill, so you can join on whichever your system uses:
 
