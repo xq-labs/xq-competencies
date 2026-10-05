@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.2.0 — 2026-09-23
+
+### Competencies
+
+- **Understanding Self** (LL.SAw.3)
+  - Introduced a new activity "A Glimpse of My Strengths" (LL.SAw.3.b) focusing on helping students identify their own strengths through reflection and storytelling.
+
+- **Role of Government** (FK.SS.1.a)
+  - Added "Class vs. Zombies" activity to help students explore governmental responses to crises, enabling them to understand the values and decision-making processes of different types of governments.
+
 ## v1.1.0 — 2026-06-09
 
 ### Added
